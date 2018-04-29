@@ -1,0 +1,14 @@
+﻿{
+  "components": [
+    {
+      // IDatabaseService
+      "type": "LmSolution.Service.DatabaseInitializerService, LmSolution.Service",
+      "services": [ { "type": "LmSolution.Service.Contracts.IDatabaseInitializerService, LmSolution.Service.Contracts" } ]
+    },
+    {
+      //LmSolution.Data.Contracts.IDbFactory
+      "type": "LmSolution.Data.DbFactory, LmSolution.Data",
+      "services": [ { "type": "LmSolution.Data.Contracts.IDbFactory, LmSolution.Data.Contracts" } ]
+    }
+  ]
+}
